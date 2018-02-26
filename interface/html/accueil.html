@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student</title>
+    <link rel="stylesheet" type="text/css" href="../css/accueil.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="../css/animatedLoading.css" type="text/css" />
+</head>
+<body>
+    
+    <div id="action-bar">
+        <div  class="nav-item nav-active nav-offer send fas fa-share-square"></div>
+        <div  class="nav-item nav-offer receive flip fas fa-share-square"></div>
+    </div>
+    
+    <!--Nav Menu-->
+    <div class="nav">
+        <div id="post" class="nav-item fas fa-home">
+        </div>
+        <div id="users" class="nav-item fas fa-users">
+        </div>
+        <div id="profil" class="nav-item fas fa-user">
+        </div>
+        <div id="message" class="nav-item fas fa-comment">
+            <div class="message-notif">2</div>
+        </div>
+        <div id="offer" class="nav-item fas fa-handshake nav-active">
+            <div class="message-notif">3</div>
+        </div>
+    </div>
+    
+    <!--Loading icon-->
+    <div class="load">
+        <div class="loading small circle">
+            <div class="circ b-xs"></div>
+            <div class="circ circ-bot cyan b-xs"></div>
+            <div class="circ circ-top teal b-xs"></div>
+        </div>
+    </div>
+    
+    <!--Post-->
+    <section class="post">
+        <div class="post-container">
+            <div class="post-head">
+                <span class="post-title">Urgent question in science</span>
+                <span class="post-category science">Science</span>
+            </div>
+            <span class="post-desc">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. </span>
+            <div class="post-footer">
+                <span class="post-reward"><i class="fas fa-coffee"></i> Coffee</span>
+                <span class="post-date"><i class="far fa-clock"></i> Posted 3 minutes ago</span>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-head">
+                <span class="post-title">Need help with Exam Thesis</span>
+                <span class="post-category math">Math</span>
+            </div>
+            <span class="post-desc">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. </span>
+            <div class="post-footer">
+                <span class="post-reward"><i class="fas fa-leaf"></i> Salad</span>
+                <span class="post-date"><i class="far fa-clock"></i> Posted 5 minutes ago</span>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-head">
+                <span class="post-title">Can't figure out my homework</span>
+                <span class="post-category philosophy">Philosophy</span>
+            </div>
+            <span class="post-desc">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. </span>
+            <div class="post-footer">
+                <span class="post-reward"><i class="fas fa-heart"></i> Gratitude</span>
+                <span class="post-date"><i class="far fa-clock"></i> Posted 7 minutes ago</span>
+            </div>
+        </div>
+    </section>
+    
+    <!--Users-->
+    <section class="users">
+        <div class="user">
+            <div class="user-photo">
+                <img class="user-avatar" src="../img/avatar/avatar1.png">
+            </div>
+            <div class="user-info">
+                <div class="user-head">
+                    <span class="user-name">Samuel Dubé</span>
+                    <span class="user-more"><i class="fas fa-ellipsis-v"></i></span>
+                </div>
+                <div class="user-body">
+                    <div class="user-location"><i class="fas fa-map-marker-alt"></i> Cégep Saint-Jean-sur-Richelieu</div>
+                    <hr />
+                    <div class="user-program"><i class="fas fa-graduation-cap"></i> Technique de l'informatique</div>
+                </div>
+                <div class="user-footer">
+                    <div class="user-labels">
+                        <span class="label">Math</span>
+                        <span class="label">Html</span>
+                        <span class="label">Css</span>
+                        <span class="label">C#</span>
+                    </div>
+                    <div class="user-likes">
+                        <span><i class="fas fa-thumbs-up"></i> 36+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="user">
+            <div class="user-photo">
+                <img class="user-avatar" src="../img/avatar/avatar5.png">
+            </div>
+            <div class="user-info">
+                <div class="user-head">
+                    <span class="user-name">Marc Bouchard</span>
+                    <span class="user-more"><i class="fas fa-ellipsis-v"></i></span>
+                </div>
+                <div class="user-body">
+                    <div class="user-location"><i class="fas fa-map-marker-alt"></i> Cégep Saint-Jean-sur-Richelieu</div>
+                    <hr />
+                    <div class="user-program"><i class="fas fa-graduation-cap"></i> Technique de l'informatique</div>
+                </div>
+                <div class="user-footer">
+                    <div class="user-labels">
+                        <span class="label">Math</span>
+                        <span class="label">Java</span>
+                        <span class="label">Science</span>
+                        <span class="label">C#</span>
+                    </div>
+                    <div class="user-likes">
+                        <span><i class="fas fa-thumbs-up"></i> 45+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="user">
+            <div class="user-photo">
+                <img class="user-avatar" src="../img/avatar/avatar2.png">
+            </div>
+            <div class="user-info">
+                <div class="user-head">
+                    <span class="user-name">David Goulet</span>
+                    <span class="user-more"><i class="fas fa-ellipsis-v"></i></span>
+                </div>
+                <div class="user-body">
+                    <div class="user-location"><i class="fas fa-map-marker-alt"></i> Cégep Saint-Jean-sur-Richelieu</div>
+                    <hr />
+                    <div class="user-program"><i class="fas fa-graduation-cap"></i> Technique de l'informatique</div>
+                </div>
+                <div class="user-footer">
+                    <div class="user-labels">
+                        <span class="label">Sql</span>
+                        <span class="label">Swag</span>
+                        <span class="label">Java</span>
+                        <span class="label">C#</span>
+                    </div>
+                    <div class="user-likes">
+                        <span><i class="fas fa-thumbs-up"></i> 110+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Profil-->
+    <section class="profil">
+        <div class="profil-container">
+            <div class="profil-head">
+                <img class="profil-avatar" src="../img/avatar/avatar2.png">
+                <div class="profil-header">
+                    <span class="profil-name">David Goulet</span>
+                    <span class="profil-likes"><i class="fas fa-thumbs-up"></i> 110+</span>
+                </div>
+                <span class="profil-location"><i class="fas fa-map-marker-alt"></i> Cégep Saint-Jean-sur-Richelieu</span>
+                <span class="profil-program"><i class="fas fa-graduation-cap"></i> Technique de l'informatique</span>
+            </div>
+            <div class="profil-body">
+                <span class="profil-desc">Jesse Jackson? Do you even... ah, I see you have a telephone at least. You know that blinking thing I've been calling you on? I will break this, I will BREAK THIS. Damn druggie idiot. Is this what you've been doing the whole time I've been trying to reach you? </span>
+                <span class="profil-preference"><i class="fas fa-heart likes"></i> Préférence pour le caffé</span>
+                <div class="profil-skills">
+                    <span class="skills-title">Competence</span>
+                    <div class="skills">
+                        <span class="skill">Css</span>
+                        <span class="skill">Html</span>
+                        <span class="skill">Javascript</span>
+                        <span class="skill">C#</span>
+                        <span class="skill">Photoshop</span>
+                        <span class="skill">3ds max</span>
+                    </div>
+                </div>
+                <div class="profil-history">
+                    <span class="history-title">Historique</span>
+                    <div class="history">
+                        <div class="history-profil">
+                            <img class="history-avatar" src="../img/avatar/avatar1.png">
+                        </div>
+                        <div class="history-info">
+                            <span class="history-user">Samuel Dubé</span>
+                            <span class="history-problem">Probleme de mathematique</span>
+                        </div>
+                        <div class="history-review">
+                        <span class="profil-likes"><i class="fas fa-thumbs-up"></i></span>   
+                        </div>
+                    </div>
+                    <div class="history">
+                        <div class="history-profil">
+                            <img class="history-avatar" src="../img/avatar/avatar5.png">
+                        </div>
+                        <div class="history-info">
+                            <span class="history-user">Marc Bouchard</span>
+                            <span class="history-problem">Probleme de science</span>
+                        </div>
+                        <div class="history-review">
+                        <span class="profil-likes"><i class="fas fa-thumbs-up"></i></span>   
+                        </div>
+                    </div>
+                    <span class="history-all">Voir Tout <i class="fas fa-angle-right"></i></span>
+                </div>
+            </div>
+            <div class="profil-footer">
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="message">
+        <div class="message-container message-actif">
+            <div class="message-photo">
+                <img class="message-avatar" src="../img/avatar/avatar1.png">
+            </div>
+            <div class="message-info">
+                <div class="message-head">
+                    <span class="message-name">Samuel Dubé 
+                        <span class="message-new">2</span>
+                    </span>
+                    <span class="message-time">9:47 am</span>
+                </div>
+                <div class="message-body">
+                    <div class="message-content">Salut, est-ce que tu pourrais m'aider dans un problème de math? J'ai vraiment aucune...</div>
+                </div>
+            </div>
+        </div>
+        <div class="message-container">
+            <div class="message-photo">
+                <img class="message-avatar" src="../img/avatar/avatar5.png">
+            </div>
+            <div class="message-info">
+                <div class="message-head">
+                    <span class="message-name">Marc Bouchard 
+                    </span>
+                    <span class="message-time">10:49 pm</span>
+                </div>
+                <div class="message-body">
+                    <div class="message-content">Jesse Jackson? Do you even... ah, I see you have a telephone at least. You know that...</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Offre-->
+    <section class="offer section-active">
+        <div id="send" class="section-active">
+            <div class="offer-send">
+                <div class="offer-title-container philosophy">
+                    <span class="offer-title">Demande Envoyé <br /><i class="send fas fa-share-square"></i></span>
+                </div>
+                <div class="offer-content">
+                    <div class="post-container user-response">
+                        <div class="post-head">
+                            <span class="post-title">Can't figure out my homework</span>
+                            <span class="post-category philosophy">Philosophy</span>
+                        </div>
+                        <span class="post-desc">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. </span>
+                        <div class="post-footer">
+                            <span class="post-reward"><i class="fas fa-heart"></i> Gratitude</span>
+                            <span class="post-date"><i class="far fa-clock"></i> Posted 7 minutes ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="receive">
+            <div class="offer-response">
+                <div class="offer-title-container philosophy">
+                    <span class="offer-category">Philosophy <i class="send flip fas fa-share-square"></i></span>
+                </div>
+                <div class="offer-content">
+                    <div class="user user-response offer-actif">
+                        <div class="user-photo">
+                            <img class="user-avatar" src="../img/avatar/avatar5.png">
+                        </div>
+                        <div class="user-info">
+                            <div class="user-head">
+                                <span class="user-name">Marc Bouchard 
+                                    <!--<span class="message-new">Nouveau</span>-->
+                                </span>
+                                <span class="user-more"><i class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                            <div class="user-body">
+                                <div class="user-location"><i class="fas fa-map-marker-alt"></i> Cégep Saint-Jean-sur-Richelieu</div>
+                                <hr />
+                                <div class="user-program"><i class="fas fa-graduation-cap"></i> Technique de l'informatique</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-button">
+                        <div class="offer-accept"><i class="fas fa-check"></i></div>
+                        <div class="offer-denied"><i class="fas fa-times"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="offer-response">
+                <div class="offer-title-container philosophy">
+                    <span class="offer-category">Philosophy <i class="send flip fas fa-share-square"></i></span>
+                </div>
+                <div class="offer-content">
+                    <div class="user user-response offer-actif">
+                        <div class="user-photo">
+                            <img class="user-avatar" src="../img/avatar/avatar1.png">
+                        </div>
+                        <div class="user-info">
+                            <div class="user-head">
+                                <span class="user-name">Samuel Dubé 
+                                    <!--<span class="message-new">Nouveau</span>-->
+                                </span>
+                                <span class="user-more"><i class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                            <div class="user-body">
+                                <div class="user-location"><i class="fas fa-map-marker-alt"></i> Cégep Saint-Jean-sur-Richelieu</div>
+                                <hr />
+                                <div class="user-program"><i class="fas fa-graduation-cap"></i> Technique de l'informatique</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-button">
+                        <div class="offer-accept"><i class="fas fa-check"></i></div>
+                        <div class="offer-denied"><i class="fas fa-times"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="offer-receive">
+                <div class="offer-title-container receive science">
+                    <span class="offer-title">Demande Recu <br /><i class="send fas fa-share-square"></i></i></span>
+                </div>
+                <div class="offer-content">
+                    <div class="post-container user-response offer-actif">
+                        <div class="post-head">
+                            <span class="post-title">Need help in Science 
+                                <!--<span class="message-new">Nouveau</span>-->
+                            </span>
+                            <span class="post-category science">Science</span>
+                        </div>
+                        <span class="post-desc">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. </span>
+                        <div class="post-footer">
+                            <span class="post-reward"><i class="fas fa-heart"></i> Gratitude</span>
+                            <span class="post-date"><i class="far fa-clock"></i> Posted 7 minutes ago</span>
+                        </div>
+                    </div>
+                    <div class="offer-button">
+                        <div class="offer-accept"><i class="fas fa-check"></i></div>
+                        <div class="offer-denied"><i class="fas fa-times"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+<script type="text/javascript" src="../javascript/accueil.js"></script>
+</html>
